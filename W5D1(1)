@@ -1,0 +1,30 @@
+1)mkdir dos studenti windows tmp
+2)mkdir studenti/nicola studenti/anna studenti/matteo
+3)mkdir nicola/scuola nicola/lavoro anna/casa matteo/amici (stando in /studenti)
+4)touch  nicola/scuola/relazione.doc nicola/scuola/compito.doc (stando in /studenti)
+5)touch tmp/risultati.doc (stando nella home)
+
+Creato il tutto come in figura sotto sarannpo riportati, per ogni lettera(ogni richiesta
+fatta dall'esercizio) i comandi che eseguirò per ognuno dei compiti.
+
+a)cd ../../anna/casa oppure cd ~/studenti/anna/casa 
+b)mv ~/studenti/nicola/scuola/relazione.doc ~/studenti/anna/casa 
+c)rm -r tmp (stando dalla home ~)
+d)touch studenti/nicola/lavoro/pippo.txt
+e)chmod 644 pippo.txt (dalla cartella lavoro)
+f)mv casa .casa (dalla cartella anna)
+g)cd ../nicola/lavoro && cat pippo.txt (dalla cartella anna)
+h)rm -r ~/studenti/matteo/amici (dalla cartella lavoro)
+i)rm -r studenti dos windows (dalla home).
+
+Fatto ciò eseguo la seconda parte elencando i comandi con i numeri come vengono 
+richiesti dall'esercizio:
+
+1)ctrl+alt+T
+2)man job, man ps, man kill
+3)vi pippo
+4)ctrl+alt+T con comando ps -s
+5)kill PID(di vi pippo)
+6-7)firefox &
+8)per rintracciare il processo di firefox in BG ho usato pgrep firefox + kill con PID del programma
+9)df
